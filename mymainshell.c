@@ -10,6 +10,7 @@
 void read_command( char cmd[], char *par[])
 
 {
+
 	char line[1024];
 	int count = 0, i = 0, j = 0;
 	char *array[100], *pch;
@@ -36,7 +37,7 @@ void read_command( char cmd[], char *par[])
 		pch = strtok ( NULL, "\n");
 	}
 
-	//first word is the command
+	//  first word is the command
 
 	strcpy (cmd, array[0] );
 
