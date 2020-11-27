@@ -1,5 +1,6 @@
 #! /bin/bash
 
+#Accepts 3 integer arguements and adds them
 #Counting total number of arguments
 
 echo "Total number of arguments : $#"
